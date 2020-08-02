@@ -41,6 +41,11 @@ then git status will stop showing the files name you have written inside the .gi
 .gitignore file will start showing untracked.
 
 we should add .gitignore file in the repository and commit it for future purpose.
+to ignore all the files with some extension just do
+write *.extension .gitignore file example *.log git will ignore all the files with log extension 
+
+if any folder which empty or contains folder or files whose name is present inside .gitignore file git will not track it(folder will not show as untracked)
+for showing untracked folder folder should contain atleast one file inside
 
 
 
