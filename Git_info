@@ -35,4 +35,14 @@ Date:   Sun Aug 2 18:46:36 2020 +0530
 
     initial commit
 	
-#
+to ignore any file which is coming untracked and not required to add in the repository
+create .gitignore file and inside file write the files to be ignored
+then git status will stop showing the files name you have written inside the .gitignore file and 
+.gitignore file will start showing untracked.
+
+we should add .gitignore file in the repository and commit it for future purpose.
+
+
+
+
+
