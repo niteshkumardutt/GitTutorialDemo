@@ -45,7 +45,7 @@ to ignore all the files with some extension just do
 write *.extension .gitignore file example *.log git will ignore all the files with log extension 
 
 if any folder which empty or contains folder or files whose name is present inside .gitignore file git will not track it(folder will not show as untracked)
-for showing untracked folder folder should contain atleast one file inside
+for showing untracked folder, folder should contain atleast one file inside
 
 
 
