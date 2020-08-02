@@ -1,0 +1,14 @@
+/*
+GIT commans
+*/
+
+#git status
+know about the status of existing git repository .
+if does not exist then fatal error will come that says not a git repository or any parent directory found.
+if git repository exist then it will track and list the files which is not added in the current branch and 
+it will show if commits has been done or not
+
+#how to make  directory as git repository?
+git init
+is used to make a directory to a empty git repository(initialize a repository with empty git repository).
+this command marks this repository as master(branch) or main branch or master repository.
