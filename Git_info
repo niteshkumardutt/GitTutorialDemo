@@ -3,12 +3,36 @@ GIT commans
 */
 
 #git status
+
 know about the status of existing git repository .
 if does not exist then fatal error will come that says not a git repository or any parent directory found.
-if git repository exist then it will track and list the files which is not added in the current branch and 
+if git repository exist(.git file is present) then it will track and list the files which is not added in the current branch and 
 it will show if commits has been done or not
+if the files which are already added or chenges are in the files in the repository and yet to commit
+it will show thos files also
 
-#how to make  directory as git repository?
-git init
+
+how to make  directory as git repository?
+#git init
 is used to make a directory to a empty git repository(initialize a repository with empty git repository).
 this command marks this repository as master(branch) or main branch or master repository.
+
+how to add all the untracked files in git branch
+#git add --a 
+it will add all the new files or file you have made chenges to the staging area for commits
+
+#git add file name
+it will add the file to the current branch you are in
+
+#git commit -m "comment for this commit"
+it will add the files to the current branch of repository which are in stage area
+
+#git log 
+it will give the following kind of info like author name, commit checksum, time when it was commited and commit message
+commit c9566e8806843f521239fce051e28a4d475af87a (HEAD -> master)
+Author: nitesh dutt <niteshkumardutt@gmail.com>
+Date:   Sun Aug 2 18:46:36 2020 +0530
+
+    initial commit
+	
+#
