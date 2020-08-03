@@ -63,3 +63,10 @@ specifically add those files to the staging area using #git add --a ot #git add 
 #git rm filename
 it removes the file from the branch and stage it automatically to deleted state
 
+#git mv currentnameOfFie newnameOfFile
+it renames the file(currentnameOfFie) with newnameOfFile and add it to the branch(staged)
+
+
+
+
+
