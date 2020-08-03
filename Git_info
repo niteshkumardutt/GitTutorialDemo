@@ -66,6 +66,13 @@ it removes the file from the branch and stage it automatically to deleted state
 #git mv currentnameOfFie newnameOfFile
 it renames the file(currentnameOfFie) with newnameOfFile and add it to the branch(staged)
 
+#git rm --cached filename
+it will stop tracking the file and show that file is deleted from branch but it will be present in local system
+
+if we put filename inside gitignore then if i make any change inside the file that name i have put inside of gitignore
+then it will still track the file. To untrack the file you have to specifically untrack the file by using #git rm --cached filename
+command.
+
 
 
 
