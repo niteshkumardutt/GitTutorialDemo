@@ -47,7 +47,11 @@ write *.extension .gitignore file example *.log git will ignore all the files wi
 if any folder which empty or contains folder or files whose name is present inside .gitignore file git will not track it(folder will not show as untracked)
 for showing untracked folder, folder should contain atleast one file inside
 
+#git diff
+is used to compare the difference between the changes in the file which are in staging area but not commited yet
+and same file after staging gets modiied means the later changes not added in the staging area
 
 
-
+#git diff --staged 
+it compares the last commit changes with changes which are in staged area and not yet commited.
 
