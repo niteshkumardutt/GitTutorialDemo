@@ -55,3 +55,10 @@ and same file after staging gets modiied means the later changes not added in th
 #git diff --staged 
 it compares the last commit changes with changes which are in staged area and not yet commited.
 
+#git commit -a -m "comments to be added"
+this command directly commits the changes you have done in files means you are skipping the adding of modified
+data to stage area or you can say direct commit but if some file is untracked it will not be commited you have to 
+specifically add those files to the staging area using #git add --a ot #git add . or #git add filename command.
+
+
+
