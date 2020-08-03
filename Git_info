@@ -10,7 +10,7 @@ if git repository exist(.git file is present) then it will track and list the fi
 it will show if commits has been done or not
 if the files which are already added or chenges are in the files in the repository and yet to commit
 it will show thos files also
-
+if any file you removed using #git rm file name then it will make that file staged(as deleted) already.
 
 how to make  directory as git repository?
 #git init
@@ -60,5 +60,6 @@ this command directly commits the changes you have done in files means you are s
 data to stage area or you can say direct commit but if some file is untracked it will not be commited you have to 
 specifically add those files to the staging area using #git add --a ot #git add . or #git add filename command.
 
-
+#git rm filename
+it removes the file from the branch and stage it automatically to deleted state
 
