@@ -73,6 +73,73 @@ if we put filename inside gitignore then if i make any change inside the file th
 then it will still track the file. To untrack the file you have to specifically untrack the file by using #git rm --cached filename
 command.
 
+#rm -rf .git
+delete a git repository
+
+#git clone repository url repositoryname
+
+#git log -p
+it will show what is removed and what was added in previous commits
+
+#git log -p -n where n is number(e.g 1,2,..)
+it will show in the last n commits what is removed and what was added in previous commits
+
+#git log --stat
+it will show the changes made in previous commit in short
+
+#git log --pretty=oneline
+it will show all the commit in per commit per line
+
+#git log --pretty=short
+it will show the commit in short info
+
+#git log --pretty=full
+it will show the commit in detail info
+
+#git log --since=n.days
+#git log --since=n.weeks
+#git log --since=n.months
+#git log --since=n.years
+these commands is useful for getting the logs since the time n(number) in days,weeks,months,years
+
+ex: git log --since=2.weeks, git log --since=2.months
+
+#git log --pretty=format: "%h -- %ae"
+it will show the code and author email for the changes made in repository 
+many formats are available like %an etc.
+
+#git commit --amend
+if you want to merge the changes with the previous commits done by others
+and want modify anything in that commit use this command
+
+
+#git reset head filename
+to unstage the file
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
