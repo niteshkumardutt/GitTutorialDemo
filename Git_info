@@ -120,7 +120,9 @@ to unstage the file
 it will restore the file with the previous commited state
 useful when you un-intensionally changed the file.
 
-
+#git checkout -f 
+if you want to go to the previous commit of the branch then use it bit be careful
+all your current modified file which is yet to commit will be removed.
 
 
 
