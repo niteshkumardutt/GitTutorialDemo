@@ -116,6 +116,10 @@ and want modify anything in that commit use this command
 #git reset head filename
 to unstage the file
 
+#git checkout -- filename
+it will restore the file with the previous commited state
+useful when you un-intensionally changed the file.
+
 
 
 
